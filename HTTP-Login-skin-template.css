@@ -1,0 +1,345 @@
+/*
+Edit this CSS file by adding attributes to existing selectors. Then save the file and upload it.
+It is strongly recommended that you do not change any of the selector names in the file.
+Changing a selector name might cause the customization to be incomplete and the preview to display incorrectly.
+*/
+body, .pageBody {
+    background-color: transparent;
+    height: 100%;
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    z-index: 9999;
+}
+
+input, label, button, textarea {
+    outline: none;
+    background: transparent;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #797979;
+    border-radius: 0.5rem
+}
+.formInput .tags, .formInput input, .formInput textarea, .wrap-dd-select {
+    border-radius: 0.5rem;
+}
+.formInput input.hasError, .formInput tags-input.hasError .tags, .formInput textarea.hasError, .mobile-selectBox.hasError, .selectBoxPC.hasError>div, .wrap-dd-select.hasError {
+    border-radius: 0.5rem;
+    border-color: #CC0000;
+}
+
+.topStrip {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.formContainer {
+    margin-bottom: 56px;
+    position: relative;
+    /* margin: 0 auto; */
+    max-width: 370px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0;
+}
+
+.formContainer, .mobile .pageBody {
+
+}
+
+.primaryBtn, .formControl .primaryBtn {
+    background-color: #CC0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: normal;
+}
+
+.primaryBtn:hover {
+    background-color: #CC0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+}
+
+.primaryBtn:active {
+
+}
+
+.topHeader .topText {
+
+}
+
+.img-logo {
+    width: 235px;
+    height: 30px;
+    margin: 8px auto;
+}
+
+.formHeader {
+    padding-bottom: 0;
+    color: black;
+    font-size: 22px;
+}
+
+.form-horizontal-divider {
+    display: none;
+}
+
+.topHeader {
+    height: 56px;
+}
+
+.elementForm {
+    width: auto;
+    margin: 20px 0 auto;
+}
+
+.formText {
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+}
+
+.terms-of-service, .terms-of-service:hover{
+    color: #CC0000 !important;
+    font-weight: 400;
+    /* text-decoration: underline !important; */
+}
+
+.terms-of-service:hover{ 
+    text-decoration: underline !important;
+}
+
+.siteLink {
+    color: #CC0000 !important;
+    /* text-decoration: underline !important; */
+    font-weight: normal;
+}
+
+.siteLink:hover {
+    text-decoration: underline !important;
+}
+
+[type=checkbox]:checked+label:before, [type=checkbox]:not(:checked)+label:before,
+[type=radio]:checked+label:before, [type=radio]:not(:checked)+label:before {
+    border: 1px solid #8b99a6;
+}
+
+[type=checkbox]:checked+label:before {
+    background-color: #CC0000;
+}
+
+.formInput input:focus {
+    border-color: #797979;
+}
+
+.formInput .tags:hover, .formInput input:hover, .formInput textarea:hover, .wrap-dd-select:hover {
+    border-color: #797979;
+    border-radius: 0.5rem;
+}
+
+.formInput .tags:focus, .formInput input:focus, .formInput textarea:focus, .wrap-dd-select:focus {
+    border-color: #797979;
+}
+
+.validationErrors, .warningText, .wrap-dd-select .dropdown,
+.monthButton,
+[type=radio]:checked+label:after, [type=radio]:not(:checked)+label:after {
+    color: #CC0000;
+    border-color: #f4f6f7;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f4f6f7;
+}
+
+.wrap-dd-select .dropdown li:hover a {
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+label:hover:before {
+    background-color: #f4f6f7;
+    border: 1px solid #797979!important;
+}
+
+.endDateContainer .dropdown-menu {
+    border-color: #CC0000;
+}
+
+.hidden-xs {
+    visibility: hidden;
+}
+
+#bg-img {
+    /* The image used */
+    background-image: url("../../img/cvs_bg_1.png");
+  
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    /* blurred bg */
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+}
+
+.header-wrap {
+    height: 93px;
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    padding: 0 64px;
+    align-items: center;
+    box-shadow: 0 6px 6px #80808061;
+}
+
+.regular-lg {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 12px;
+    line-height: 27px;
+}
+
+.regular-sm {
+    font-size: 16px;
+    margin: 12px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.backTopButton, .continueButton {
+    color: #CC0000;
+    font-weight: normal;
+}
+
+.wifi-connected-logo {
+    background-image: url("../../img/wifi_connected.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 120px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* blurred bg */
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* z-index: 9999; */
+    top: 20%;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 370px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom40 {
+    margin-bottom: 40px;
+  }
+
+  .formAlready {
+    margin: 30px 0 auto;
+  }
+  .elementForm .errors, .elementForm .formGeneralError {
+    color: #CC0000;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .cancel_btn {
+    color: #CC0000;
+    float: right;
+  }
+  .cancel_btn:hover {
+    color: #CC0000;
+  }
+  .formHeader.errorHeader {
+    color: #CC0000;
+   }
+
+@media (max-width: 767px) {
+    .header-wrap {
+        height: 80px;
+    }
+    .formContainer {
+        width: 90% !important;
+    }
+
+    [type=checkbox]:checked+label, [type=checkbox]:not(:checked)+label {
+        padding: 0 18px;
+    }
+
+    #bg-img {
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+    .img-logo {
+
+    }
+    .formHeader {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        margin-top: 0;
+    }
+    .formHeader.errorHeader {
+
+    }
+    .form-horizontal-divider {
+
+    }
+    .formAlready {
+        margin: 30px 0 auto;
+        font-weight: normal;
+    }
+    .formAlready, .formHeader.errorHeader, .formHeader.notificationHeader {
+
+    }
+    .formMessage {
+
+    }
+    .siteLink {
+
+    }
+    .terms-of-service {
+
+    }
+    .errorStrip {
+
+    }
+    .topStrip {
+
+    }
+}
